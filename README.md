@@ -1,7 +1,6 @@
 # Taller de Git desde cero — Día 1
 
-**Duración:** 3 horas · **Nivel:** principiantes · **Requisitos:** computadora con Windows o macOS, conexión a Internet y una cuenta gratuita de [GitHub](https://github.com/).
-
+**Duración:** 2 horas · **Nivel:** principiantes · **Requisitos:** computadora con Windows o macOS, conexión a Internet y una cuenta gratuita de [GitHub](https://github.com/).
 
 ## Índice
 
