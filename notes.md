@@ -27,6 +27,8 @@ Si cambiamos la branch upstream, podremos pushear nuestros cambios sin especific
 git push -u origin <branch>
 ```
 
+Ahora nuestra rama local va a seguir a otra rama distinta de main en el *remote*
+
 ## Git commit
 
 Guarda los cambios del staging area
