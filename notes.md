@@ -11,8 +11,15 @@
 
 `git push` por default sube los cambios de nuestro branch al *upstream* branch, la cual es la branch default para sincronizar cambios
 
+por default tenemos a nuestro remote principal llamado *origin*
+
 Subir cambios al *remote* (server)
 - `git push <remote> <branch>`: subir cambios de nuestro branch al server remote
+
+**Glosario**
+
+- **remote**: servers a los cuales subir cambios
+- **origin**: server default para subir los cambios
 
 ## Git commit
 
@@ -33,7 +40,7 @@ de nuestro repositorio
 - `git branch <rama>`: Crea una nueva rama
 - `git branch -D <rama>`: Elimina una rama
 
-## git checkout
+## git switch
 
 Git checkout sirve para intercambiar ramas o commits
 
