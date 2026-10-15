@@ -21,6 +21,12 @@ Subir cambios al *remote* (server)
 - **remote**: servers a los cuales subir cambios
 - **origin**: server default para subir los cambios
 
+Si cambiamos la branch upstream, podremos pushear nuestros cambios sin especificar a que rama todo el tiempo
+
+```
+git push -u origin <branch>
+```
+
 ## Git commit
 
 Guarda los cambios del staging area
