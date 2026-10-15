@@ -27,6 +27,8 @@ Si cambiamos la branch upstream, podremos pushear nuestros cambios sin especific
 git push -u origin <branch>
 ```
 
+`-u` es igual que `--set-upstream`
+
 Ahora nuestra rama local va a seguir a otra rama distinta de main en el *remote*
 
 ## Git commit
@@ -34,7 +36,7 @@ Ahora nuestra rama local va a seguir a otra rama distinta de main en el *remote*
 Guarda los cambios del staging area
 
 - `git commit -m "Comentario"`: hace un commit con un comentario
-- `git commit -am "Comentario`: Es el equivalente de:
+- `git commit -am "Comentario`: Nos ahorra tiempo al ser el equivalente de
   ```bash
   git add -u
   git commit -m "Comentario"
