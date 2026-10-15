@@ -24,6 +24,12 @@ subir cambios al *remote* (server)
 
 -  `git push <remote> <branch>`: subir cambios de nuestra  branch al server remote
 
+#### cambiar upstream
+
+si cambiamos la branch upstream podemos pushear nuestros cambios sin especificar a que rama todo el tiempo
+    
+`git push -u origin <branch> `: subir cambios de nuestra  branch al server remote
+
 
 ### glosario 
     
@@ -37,4 +43,4 @@ subir cambios al *remote* (server)
 
  `git commit -am "comentario"`: añade solo los archivos cambiados al area de staging
 
- 
+
