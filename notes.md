@@ -30,6 +30,9 @@ si cambiamos la branch upstream podemos pushear nuestros cambios sin especificar
     
 `git push -u origin <branch> `: la rama usptream ahora es branch
 
+`-u` es igual que  `--set upstream`
+
+ahora nuestra rama local ba a seguir otra rama diferente a la main 
 
 ### glosario 
     
