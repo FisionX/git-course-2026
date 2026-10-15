@@ -7,6 +7,13 @@
 - `git add .`: Añadir todos los archivos cambiados a staging, incluso archivos nuevos
 - `git add -u`: Añadir solo los archivos cambiados al area de staging
 
+## Git push
+
+`git push` por default sube los cambios de nuestro branch al *upstream* branch, la cual es la branch default para sincronizar cambios
+
+Subir cambios al *remote* (server)
+- `git push <remote> <branch>`: subir cambios de nuestro branch al server remote
+
 ## Git commit
 
 Guarda los cambios del staging area
