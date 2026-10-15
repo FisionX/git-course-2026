@@ -28,7 +28,7 @@ subir cambios al *remote* (server)
 
 si cambiamos la branch upstream podemos pushear nuestros cambios sin especificar a que rama todo el tiempo
     
-`git push -u origin <branch> `: subir cambios de nuestra  branch al server remote
+`git push -u origin <branch> `: la rama usptream ahora es branch
 
 
 ### glosario 
