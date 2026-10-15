@@ -36,6 +36,8 @@ Git checkout sirve para intercambiar ramas o commits
 
 por default el server remote principal se le llama *origin*
 
+- git push -u origin <branch>
+
 Subir cambios al remote (server)
 - git push <remote> <branch>
 
@@ -44,4 +46,6 @@ Subir cambios al remote (server)
 
 - remote: servers a los cuales subir cambios
 
-- origin
+- origin: server default para hacer los cambios
+
+Si cambiamos la branch upstream
