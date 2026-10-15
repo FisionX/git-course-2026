@@ -8,7 +8,8 @@
 
 ## Git commit
 guarda los cambios del staging area
-- `git commit -m "comentarios"` : 
+- `git commit -m "comentario"` : agrega el cambio y su respectivo comentario
+- `git commit -am "comentario"` : agregan los comentarios equivalente a decir `git add <file>` y `git commit -m "comentario "` 
 
 ## Git push 
 subir cambio al *remote* (server)
@@ -39,3 +40,4 @@ Si cambuiamos la branch upstream, podremos pushear sin especificar los cambios a
 ```
 git push -u origin <branch> : 
 ```
+-u es igual a ser lan
