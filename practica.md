@@ -18,9 +18,9 @@
 
 ## A. Presentación
 
-- **Mi nombre o apodo:** [ESCRIBE AQUÍ]
-- **Una actividad que disfruto:** [ESCRIBE AQUÍ]
-- **Algo que me gustaría aprender con Git:** [ESCRIBE AQUÍ]
+- **Mi nombre o apodo:** Sanz47
+- **Una actividad que disfruto:** VibeCodear
+- **Algo que me gustaría aprender con Git:** A usarlo desde la terminal de vsCode
 
 ## B. Lo que aprendí
 
