@@ -49,3 +49,5 @@ Subir cambios al remote (server)
 - origin: server default para hacer los cambios
 
 Si cambiamos la branch upstream
+
+## que rollo sami 
