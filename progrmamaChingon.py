@@ -1,4 +1,4 @@
-def sumar_numeros(a, b):
+def restar_numeros(a, b):
     return a + b
 
 # Solicitar datos al usuario
