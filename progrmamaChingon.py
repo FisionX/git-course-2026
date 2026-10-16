@@ -1,4 +1,4 @@
-def restar_numeros(a, b):
+def suma_chingona_de_sami(a, b):
     return a + b
 
 # Solicitar datos al usuario
