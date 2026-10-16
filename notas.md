@@ -1,43 +1,57 @@
 # Notes
 
-## Git add 
+## Git status
 
-- `git add .` : Anadir todos los archivos cambaindo a stating
-, incluso a archivos nuevos
-- `git add - u` : Anadir solo los archivos cambiados al area de stating
+## Git add
+
+- `git add .`: Añadir todos los archivos cambiados a staging, incluso archivos nuevos
+- `git add -u`: Añadir solo los archivos cambiados al area de staging
+
+## Git push
+
+`git push` por default sube los cambios de nuestro branch al *upstream* branch, la cual es la branch default para sincronizar cambios
+
+por default tenemos a nuestro remote principal llamado *origin*
+
+Subir cambios al *remote* (server)
+- `git push <remote> <branch>`: subir cambios de nuestro branch al server remote
+
+**Glosario**
+
+- **remote**: servers a los cuales subir cambios
+- **origin**: server default para subir los cambios
+
+Si cambiamos la branch upstream, podremos pushear nuestros cambios sin especificar a que rama todo el tiempo
+
+```
+git push -u origin <branch>
+```
+
+`-u` es igual que `--set-upstream`
+
+Ahora nuestra rama local va a seguir a otra rama distinta de main en el *remote*
 
 ## Git commit
-guarda los cambios del staging area
-- `git commit -m "comentario"` : agrega el cambio y su respectivo comentario
-- `git commit -am "comentario"` : agregan los comentarios equivalente a decir `git add <file>` y `git commit -m "comentario "` 
 
-## Git push 
-subir cambio al *remote* (server)
+Guarda los cambios del staging area
 
-`git push` por default sube los cambios de nuestro branch al
-*upstream* branch, la cual es la branch default al 
-- `git push <remote><branch>` : sirve para subir los cambios a las ramas principales y asi
-- `git push -u` : 
-
+- `git commit -m "Comentario"`: hace un commit con un comentario
+- `git commit -am "Comentario`: Nos ahorra tiempo al ser el equivalente de
+  ```bash
+  git add -u
+  git commit -m "Comentario"
+  ```
 
 ## Git branch
-`git branch` : Enlistar ramas y crea ramas nuevas en el repositorio
-- `git branch` se usa para enlistar
-- `git branch <rama>` crea ramas
-- `git branch -D <rama>` eliminar ramas
+`git branch` sirve para enlistar o crear nuevas ramas
+de nuestro repositorio
 
-## Git checkout 
-`git checkout` : sirve para intercambiar ramas o commits
+- `git branch`: Enlistar ramas
+- `git branch <rama>`: Crea una nueva rama
+- `git branch -D <rama>`: Elimina una rama
 
-## Git switch
+## git switch
 
-- `git switch <rama> :` cambiar a la rama
+Git checkout sirve para intercambiar ramas o commits
 
-**glosario**
-
-Si cambuiamos la branch upstream, podremos pushear sin especificar los cambios asi como
-
-```
-git push -u origin <branch> : 
-```
--u es igual a ser lan
+- `git switch <rama>`: chambiar a una rama
