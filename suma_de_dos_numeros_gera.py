@@ -12,4 +12,4 @@ def suma_2_numeros(a, b):
     return a + b +5
 
 
-suma_2_numeros(2, 5)
+suma_2_numeros(2, 800)
