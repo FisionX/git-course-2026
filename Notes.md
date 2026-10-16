@@ -20,9 +20,9 @@ git push lo sube al git hub
 
 ## GIT BRANCH
 
-- 'git branch': Enlista las ramas
-- 'git branch "nombre"': Crea una rama nueva
-- 'git branch -D "nombre"': Borra ramas
+- `git branch:` Enlista las ramas
+- `git branch "nombre":` Crea una rama nueva
+- `git branch -D "nombre":` Borra ramas
 
 ## GIT CHECK OUT
 
