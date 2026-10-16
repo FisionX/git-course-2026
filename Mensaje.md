@@ -1,0 +1,1 @@
+Q rollo mi fer, te quedo bien perro el curso, si va a jalar para el Robot Sumo 
