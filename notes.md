@@ -1,5 +1,13 @@
 # Notes
 
+# Git clone
+
+```bash
+git clone <url del repositorio>
+```
+
+Crear una carpeta con el nombre del repo y clonar el repositorio ahí
+
 ## Git status
 
 ## Git add
