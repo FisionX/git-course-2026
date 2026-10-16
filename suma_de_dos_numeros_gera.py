@@ -9,7 +9,7 @@ def suma_2_numeros(a, b):
     Retorna:
     int o float: La suma de los dos números.
     """
-    return a + b
+    return a + b +5
 
 
 suma_2_numeros(3, 5)
